@@ -5,7 +5,7 @@ void setup() {
   //outputs, weil sie etwas von sich geben, in diesem Fall Licht. 
   //grünes Licht
   pinMode(7, OUTPUT);
-  gelbes Licht
+  //gelbes Licht
   pinMode(5, OUTPUT);
   //rotes Licht
   pinMode(3, OUTPUT);
@@ -71,5 +71,5 @@ Serial.println(buttonState);
       buttonState = digitalRead(10);
     }
   }
-  
+  }
 }
